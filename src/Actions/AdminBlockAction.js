@@ -5,7 +5,7 @@ import {
 export const adminBlockStatusUpdate = (data) => {
     return {
         type: ADMIN_BLOCK_LIST,
-        payload: {
+        payload: { 
             id: uuidv4(),
             data
         }

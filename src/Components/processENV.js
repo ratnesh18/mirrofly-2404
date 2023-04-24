@@ -6,9 +6,9 @@ export const {
   REACT_APP_XMPP_SOCKET_PORT,
   REACT_APP_SSL,
   REACT_APP_ENCRYPT_KEY,
-  REACT_APP_API_URL,
+ // REACT_APP_API_URL,
   REACT_APP_SOCKETIO_SERVER_HOST,
-  REACT_APP_LICENSE_KEY,
+ // REACT_APP_LICENSE_KEY,
   REACT_APP_JANUS_URL,
   REACT_APP_TURN_URL,
   REACT_APP_TURN_USERNAME,
@@ -71,3 +71,5 @@ export const AUDIO_PERMISSION_DENIED = "Audio Microphone not authorized. Please 
 export const PERMISSION_DENIED = "Permission denied"
 export const RETAKE = "Retake"
 export const ENABLE_NOTIFICATIONS = "Please enable browser notifications"
+export const REACT_APP_API_URL ="https://shoppertainment-api.mirrorfly.com/api/v1"
+export const REACT_APP_LICENSE_KEY ="yYkDr6Tz2OS9OsAd0CcRjfQCVpCbdE"

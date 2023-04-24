@@ -1041,6 +1041,7 @@ export var callbacks = {
         }
 
         if (res.msgType === "receiveMessage" && res.chatType === CHAT_TYPE_GROUP && res.msgBody === "2") {
+            console.log("Recived message",res);
             const groupListRes = await SDK.getGroupsList();
             if (groupListRes && groupListRes.statusCode === 200) {
                 Store.dispatch(GroupsDataAction(groupListRes.data));
